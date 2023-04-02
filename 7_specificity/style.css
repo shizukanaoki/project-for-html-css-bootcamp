@@ -1,0 +1,25 @@
+input {
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+/* specificity1 */
+#nested {
+  color: green;
+}
+
+input {
+  color: purple;
+}
+
+/* specificity2 */
+input.myClass#myElement {
+  color: red;
+}
+input[type="text"]:required {
+  color: blue;
+}
+html body main input {
+  color: green;
+}

@@ -1,0 +1,12 @@
+.outer {
+  border: 10px solid black;
+}
+
+.inner {
+  background-color: rgb(183, 196, 127);
+  padding: 10px;
+  border: 10px solid rgb(227, 195, 129);
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+}

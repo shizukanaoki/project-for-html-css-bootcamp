@@ -1,0 +1,15 @@
+.left {
+  float: left;
+  background-color: mediumslateblue;
+}
+
+.right {
+  float: right;
+  background-color: mediumaquamarine;
+}
+
+/* .float::after {
+  content: "";
+  clear: both;
+  display: block;
+} */

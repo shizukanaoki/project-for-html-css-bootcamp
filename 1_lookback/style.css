@@ -1,0 +1,15 @@
+h1 {
+  color: green;
+}
+
+.item {
+  color: blue;
+}
+
+#first-item {
+  color: red;
+}
+
+* {
+  color: orange;
+}

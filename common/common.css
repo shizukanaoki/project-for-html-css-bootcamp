@@ -1,0 +1,20 @@
+.nav {
+  position: fixed;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__item {
+  padding: 5px 10px;
+}
+
+.nav__item:not(:first-child) {
+  border-left: 1px solid black;
+}
+
+.nav__item a {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
