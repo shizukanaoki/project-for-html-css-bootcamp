@@ -1,43 +1,29 @@
-.list li {
-  font-size: 40px;
+main {
+  padding: 20px;
 }
 
-/* nth child */
-
-/* .list li:first-child {
+.list li:nth-child(1) {
   color: red;
-} */
+}
 
-/* .list li:nth-child(2) {
+.list li:nth-child(2) {
   color: blue;
-} */
+}
 
-/* .list li:nth-child(3n) {
-  color: green;
+.list li:nth-child(3n) {
+  color: orange;
+}
+
+/* .list li:nth-child(-n + 3) {
+  color: pink;
 } */
 
 /* before, after */
 
 /* .quoted:before {
   content: "『";
-} */
+}
 
-/* .quoted:after {
+.quoted:after {
   content: "』";
-} */
-
-/* .labeled {
-  position: relative;
-  padding: 30px;
-  background: grey;
-} */
-
-/* .labeled:before {
-  position: absolute;
-  content: "label";
-  top: 0;
-  left: 0;
-  color: white;
-  padding: 4px;
-  background: orange;
 } */

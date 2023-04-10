@@ -1,12 +1,12 @@
-.outer {
-  border: 10px solid black;
+* {
+  box-sizing: content-box;
 }
 
-.inner {
-  background-color: rgb(183, 196, 127);
-  padding: 10px;
-  border: 10px solid rgb(227, 195, 129);
-  margin: 10px;
-  width: 150px;
-  height: 150px;
+.box {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  border: 20px solid gray;
+  margin: 20px auto;
+  /* background-color: yellow; */
 }

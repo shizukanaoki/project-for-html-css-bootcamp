@@ -1,0 +1,11 @@
+main {
+  padding: 20px;
+}
+
+body h1 {
+  color: red;
+} /* 0-0-2 */
+
+h1 {
+  color: blue !important;
+} /* 0-0-1 */

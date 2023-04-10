@@ -1,8 +1,13 @@
+main {
+  font-size: 40px;
+}
+
 .nav {
   position: fixed;
+  min-width: 1300px;
   bottom: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .nav__item {

@@ -1,29 +1,17 @@
 .box {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   background-color: red;
 }
 
-/* @media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
   .box {
     background-color: blue;
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 900px), print {
   .box {
     background-color: green;
   }
-} */
-
-/* @media screen and (max-width: 900px) {
-  .box {
-    background-color: pink;
-  }
 }
-
-@media screen and (max-width: 600px) {
-  .box {
-    background-color: orange;
-  }
-} */
